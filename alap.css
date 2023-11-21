@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14pt;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 66vw;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.container {
+  min-width: 480px;
+}
+
+.card {
+  width: calc(50% - 0.5rem);
+  min-width: calc(480px + 1rem);
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.card:nth-child(even) {
+  margin-left: 0.5rem;
+}
+
+.card:nth-child(odd) {
+  margin-right: 0.5rem;
+}
+
+.profile-image {
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.profile-image img {
+  width: 90%;
+  min-width: 120px;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.name {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2rem;
+  font-variant: small-caps;
+}
+
+.email-icon, .tel-icon {
+  margin: 0;
+}
+
+.email-icon img, .tel-icon img {
+  width: 1.75rem;
+}
+
+.name, .role, .email, .tel {
+  padding: 0.75rem;
+}

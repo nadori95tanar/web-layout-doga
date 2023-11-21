@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 1fr 3rem 2fr;
+  grid-template-rows: repeat(1fr, 4);
+}
+
+.profile-image {
+  grid-column: 1 / 2;
+  grid-row: 1 / 5;
+  align-self: center;
+}
+
+.name {
+  grid-column: 2 / 4;
+}
+
+.role {
+  grid-column: 2 / 4;
+}
+
+.email-icon, .tel-icon {
+  align-self: center;
+  justify-self: center;
+
+}
+
+.email, .tel {
+  grid-column: 3 / 4;
+}
+
+.name, .role, .email, .tel {
+  align-self: center;
+}
